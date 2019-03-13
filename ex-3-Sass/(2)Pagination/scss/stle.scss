@@ -1,0 +1,49 @@
+@import "../../VarScss/__colors";
+@import "../../VarScss/_Mixin";
+
+
+body{
+  background-color: $lightBlack;
+}
+nav{
+  @include displayCenter;
+}
+li{
+  @include decorationNone;
+}
+a{
+  @include displayAllCenter;
+  text-decoration: none;
+  height: 100%;
+}
+ul{
+  padding: 1%;
+}
+html{
+  @include displayAllCenter;
+}
+.page-item:hover{
+  background-color: #65a1cf;
+}
+.pagination{
+  @include displayCenter;
+  background-color: $white;
+  margin-top: 290px;
+  justify-content: center;
+}
+.page-item{
+  background-color: #5b5c66;
+  margin: 20px 5px;
+  width: 95px;
+  height: 36px;
+  border-radius: 4px;
+}
+.page-link{
+  font-size: 17px;
+  color: $white;
+  font-weight: bold;
+}
+.mid a, .active a{
+  color:black;
+  background-color: $white;
+}

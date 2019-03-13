@@ -1,0 +1,86 @@
+
+table{
+  border-collapse: separate;
+  width: 100%;
+}
+tr.border_bottom td{
+  border-bottom: 1px solid #ececec;
+}
+td{
+  height: 30px;
+}
+.date{
+  width: 130px;
+}
+.titel{
+  color: grey;
+  font-size: 20px;
+}
+.blue{
+  background-color: #1d618e;
+  width: 90px;
+}
+.blue1{
+  background-color: #2982bc;
+  width: 90px;
+}
+.blue2{
+  background-color: #439dd8;
+  width: 90px;
+}
+.blue3{
+  background-color: #4baaea;
+  width: 90px;
+}
+.blue4{
+  background-color: #65b6ed;
+  width: 90px;
+}
+.blue5{
+  background-color: #9ad0f4;
+  width: 90px;
+}
+.blue6{
+  background-color: #bddbef;
+  width: 90px;
+}
+.blue7{
+  background-color: #d3e1ea;
+  width: 90px;
+}
+.week td{
+  color: grey;
+}
+.numbersR:not:first-child {
+  text-align: right;
+}
+.mainmenubtn {
+    background-color: white;
+    color: grey;
+    border: none;
+    cursor: pointer;
+    margin-top: 7px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-child {
+    display: none;
+    background-color: #1d618e;
+}
+.dropdown-child a {
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
+.report{
+  text-align: right;
+}
+.fa-chevron-right{
+  margin-left: 20px;
+}

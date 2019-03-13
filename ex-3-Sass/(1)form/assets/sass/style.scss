@@ -1,0 +1,251 @@
+@import "../../../VarScss/__colors";
+@import "../../../VarScss/_Variables";
+@import "../../../VarScss/_Mixins";
+
+
+form, fieldset{
+  border: none;
+}
+hr{
+  border: 1px dotted #e5e6e8;
+
+}
+input{
+  height: $twentyseven;
+}
+/*FONTS AND TEXT*/
+* {
+  font-size: $twenty;
+  font-family: "Sans-serif";
+  margin-left: $two;
+}
+label{
+  margin: $five;
+}
+p{
+  margin: 0;
+  margin-bottom: $seven;
+}
+h1{
+  font-size: $thirtythree;
+  margin: $twentyfive;
+  padding-top: $ten;
+}
+textarea{
+  margin-left: $eight;
+}
+button{
+  margin-top: $fortyfive;
+}
+.relT{
+  margin-left: $twohundred;
+  font-weight: bold;
+  margin-bottom: 0px;
+  font-size: 19px;
+}
+
+.name, .adres, .home, .work, .med, .phoneN, .phys, .med1, .med2, .all{
+  font-weight: bold;
+  padding-left: $five;
+}
+
+.med{
+  margin-left: -2px;
+  margin-top: -3px;
+}
+.med1{
+  margin-left: -3px;
+}
+.med2{
+  margin-left: $twentyfive;
+}
+.phoneN{
+  margin-left: 276px;
+}
+.work{
+  margin-top: $thirty;
+  margin-left: 330px;
+
+}
+.home{
+  margin-top: $thirty;
+}
+.adres{
+  margin-top: 23px;
+  margin-left: -3px;
+}
+.gendert{
+  font-weight: bold;
+  margin: 0;
+  font-size: $twenty;
+  margin-top: 23px;
+  margin-bottom: $seven;
+}
+.birth{
+  font-size: 18px;
+  font-weight: bold;
+}
+.kolD{
+  margin-top: $twentyseven;
+  margin-left: 35px;
+}
+.first{
+  margin-left: -0px;
+}
+.img{
+  height: 34px;
+  width: 34px;
+}
+
+.field-row1{
+  display: flex;
+}
+.flex{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.mm{
+  margin-top: $five;
+  margin-right: $five;
+  width: $thirty;
+}
+.mm1{
+  width: 50px;
+  margin-top: 4px;
+}
+#Gender{
+@include inputGender;
+}
+
+
+/*INPUT*/
+.hospi{
+  width: 920px;
+  margin-bottom: $thirty;
+}
+.dat, .dat1, .dat2{
+  font-size: 17px;
+  margin-top: $five;
+}
+.dat{
+  margin-right: 13px;
+}
+.dat1{
+  margin-right: 14px;
+}
+.dat2{
+  margin-left: $seven;
+}
+
+.input4{
+  margin-top: $five;
+  margin-left: $twohundred;
+  width: 440px;
+}
+.zip{
+  width: 445px;
+  margin-right: 120px;
+  margin-top: $twenty;
+}
+.city{
+  width: 445px;
+  margin-right: 120px;
+  margin-top: $twenty;
+}
+.compa{
+  width: 445px;
+  margin-bottom: $thirty;
+}
+.poli{
+  margin-left: $thirty;
+  width: 440px;
+  margin-bottom: $thirty;
+}
+.phys1{
+  width: 445px;
+  margin-bottom: 50px;
+}
+.country{
+  @include inputCountry;
+}
+.countryN{
+  margin-left: -90px;
+}
+.stateN{
+  margin-left: -90px;
+
+}
+.state{
+  margin-left: -90px;
+  margin-top: $twenty;
+  width: 440px;
+}
+.rel{
+  margin-left: -10px;
+}
+.input3{
+  width: 920px;
+  margin-bottom: 5px;
+}
+.input33{
+  width: 920px;
+  margin-bottom: $five;
+  margin-top: 14px;
+}
+.wphone1, .hphone1, .wphone, .hphone{
+    margin-left: $ten;
+    margin-right: $ten;
+  width: 34px;
+    height: 29px;
+}
+.wphone3, .hphone3{
+  margin-left: $ten;
+  margin-right: $ten;
+  width: 50px;
+  height: 29px;
+}
+.phones, .phones1, .phones2, .phones3{
+  display: flex;
+  margin-top: $five;
+}
+.phones{
+  margin-left: -5px;
+}
+.phones1{
+  margin-left: 265px;
+}
+.phones3{
+  margin-left: 15px;
+}
+
+.hwphoneT {
+  font-size: $twenty;
+  margin-left: $ten;
+  font-size: 17px;
+}
+.inf{
+  margin-top: -5px;
+  margin-left: $seven;
+}
+.firstName{
+  width: 100px;
+
+  margin-right: $two;
+  margin-bottom: 3px;
+}
+.lastName{
+  width: 175px;
+
+  margin-bottom: 3px;
+}
+.lastName1{
+  width: 175px;
+
+  margin-bottom: 3px;
+  margin-top: $thirty;
+}
+input{
+  box-shadow: inset 0 8px 6px -6px #CCC;
+}

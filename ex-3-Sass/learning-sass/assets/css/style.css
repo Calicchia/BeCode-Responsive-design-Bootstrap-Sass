@@ -1,0 +1,289 @@
+ul {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.photo {
+  margin-top: 45px;
+  height: 155px;
+}
+
+.kleur5 {
+  grid-area: 1/1;
+  background-color: #2580a0;
+}
+
+.kleur6 {
+  grid-area: 1/3;
+  background-color: #2580a0;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  width: auto;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 6vw 88vw 6vw;
+  grid-template-rows: 2em 200px;
+}
+.wrapper ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  font-size: 15px;
+  background-color: #2580a0;
+  margin: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  min-height: 2em;
+}
+.wrapper ul a {
+  text-decoration: none;
+  color: white;
+}
+.wrapper ul a .jumbotron {
+  grid-area: 2/2;
+}
+
+.kleur1 {
+  grid-area: 1/1;
+  background-color: #2580a0;
+  height: 100%;
+  width: 100%;
+}
+
+.kleur2 {
+  grid-area: 1/3;
+  background-color: #2580a0;
+  height: 100%;
+  width: 100%;
+}
+
+.kleur3 {
+  grid-area: 2/1;
+  background-color: #00445f;
+  height: 100%;
+  width: 100%;
+}
+
+.kleur4 {
+  grid-area: 2/3;
+  background-color: #00445f;
+  height: 100%;
+  width: 100%;
+}
+
+.movies {
+  display: grid;
+  grid-template-columns: 6vw 29vw 29vw 30vw 6vw;
+  grid-template-rows: 5vw 3vw 20vw 1vw 20vw 20vw 20vw 20vw 20vw;
+}
+
+.h2 {
+  font-size: 17px;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+.h2 {
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+  grid-area: 1/2/1/4;
+}
+
+.kleur7 {
+  grid-area: 1/1/span 5/1;
+  background-color: #e8eaed;
+  height: 100%;
+  width: 100%;
+}
+
+.kleur8 {
+  grid-area: 1/5/span 5/5;
+  background-color: #e8eaed;
+  height: 100%;
+  width: 100%;
+}
+
+.kleur9 {
+  grid-area: 1/1/1/span 6;
+  background-color: #f0f5f6;
+  height: 100%;
+  width: 100%;
+}
+
+.kleur10 {
+  grid-area: 2/1/2/span 6;
+  background-color: #cacdd1;
+  height: 100%;
+  width: 100%;
+}
+
+.movies {
+  display: grid;
+  grid-template-columns: 6vw 20vw 50vw 20vw 6vw;
+  grid-template-rows: 5vw 3vw 40vw 1vw 40vw 40vw 40vw 40vw 40vw;
+}
+
+.m1 {
+  grid-area: 3/3;
+  height: 100%;
+  width: 100%;
+}
+
+.m2 {
+  grid-area: 5/3;
+  height: 100%;
+  width: 100%;
+}
+
+.m3 {
+  grid-area: 6/3;
+  height: 100%;
+  width: 100%;
+}
+
+.m4 {
+  grid-area: 7/3;
+  height: 100%;
+  width: 100%;
+}
+
+.m5 {
+  grid-area: 8/3;
+  height: 100%;
+  width: 100%;
+}
+
+.m6 {
+  grid-area: 9/3;
+  height: 100%;
+  width: 100%;
+}
+
+@media screen and (min-width: 350px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  ul {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .wrapper {
+    display: grid;
+    grid-template-columns: 6vw 88vw 6vw;
+    grid-template-rows: 2em 300px;
+  }
+  .wrapper ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 15px;
+    background-color: #2580a0;
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    min-height: 2em;
+  }
+  .wrapper ul a {
+    text-decoration: none;
+    color: white;
+  }
+  .wrapper ul a .jumbotron {
+    grid-area: 2/2;
+  }
+
+  .photo {
+    width: 100%;
+    margin-top: 0;
+    height: 300px;
+  }
+
+  .kleur5 {
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .kleur6 {
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .h2 {
+    grid-area: 1/2/1/5;
+    font-size: 20px;
+    width: 100%;
+    margin-top: 0px;
+  }
+
+  .movies {
+    display: grid;
+    grid-template-columns: 6vw 28vw 28vw 28vw 6vw;
+    grid-template-rows: 5vw 3vw 40vw 1vw 40vw 40vw 40vw 40vw 40vw;
+  }
+
+  .m1 {
+    grid-area: 3/2;
+    height: 100%;
+    width: 100%;
+  }
+
+  .m2 {
+    grid-area: 3/3;
+    height: 100%;
+    width: 100%;
+  }
+
+  .m3 {
+    grid-area: 3/4;
+    height: 100%;
+    width: 100%;
+  }
+
+  .m4 {
+    grid-area: 5/2;
+    height: 100%;
+    width: 100%;
+  }
+
+  .m5 {
+    grid-area: 5/3;
+    height: 100%;
+    width: 100%;
+  }
+
+  .m6 {
+    grid-area: 5/4;
+    height: 100%;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 575px) {
+  .h2 {
+    color: #6d7474;
+    grid-area: 1/2/1/5;
+    font-size: 30px;
+    width: 100%;
+    margin-top: 0px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

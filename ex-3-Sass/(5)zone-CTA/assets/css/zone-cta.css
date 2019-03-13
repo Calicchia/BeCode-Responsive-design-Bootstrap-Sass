@@ -1,0 +1,31 @@
+* {
+  font-family: serif;
+  padding: 0;
+  margin: 0; }
+
+h1 {
+  font-size: 50px;
+  margin-bottom: 10px; }
+
+button {
+  background-color: #6eb199;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 20px;
+  height: 50px;
+  width: 200px;
+  margin-top: 40px;
+  margin-left: 180px; }
+
+.card-text p {
+  font-size: 20px; }
+
+.container-text {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.midText {
+  color: #6eb199; }
+
+/*# sourceMappingURL=zone-cta.css.map */

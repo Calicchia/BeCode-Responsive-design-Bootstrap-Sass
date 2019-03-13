@@ -1,0 +1,31 @@
+@import "../../../VarScss/__colors";
+@import "../../../VarScss/_Mixins";
+
+*{
+  font-family: serif;
+  padding: 0;
+  margin: 0;
+}
+h1{
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+button{
+  background-color: $blueGreen;
+  border-radius: 4px;
+  color: $white;
+  font-size: 20px;
+  height: 50px;
+  width: 200px;
+  margin-top: 40px;
+  margin-left: 180px;
+}
+.card-text p{
+  font-size: 20px;
+}
+.container-text{
+  @include displayAllCenter;
+}
+.midText{
+  color: #6eb199;
+}

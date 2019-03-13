@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style1.css">
+  <title></title>
+</head>
+<body>
+  <div class="container">
+
+    <form>
+      <div class="box">
+        <h1>Emergency Contact and Medical Information</h1>
+      </div>
+      <hr>
+      <fieldset>
+        <p class="name">Name</p>
+
+        <div class="field-row1">
+          <div class="box1">
+            <input type="text" class="firstName" name="firstName" id="firstName">
+            <label for="firstName" class="first">First</label>
+          </div>
+
+          <div class="box2">
+            <input type="text" class="lastName" name="lastName" id="lastName">
+            <label for="lastName">Last</label>
+          </div>
+        </div>
+      </div>
+
+        <div class="field-row1">
+          <div class="flex">
+            <label for="Gender" class="gendert">Gender</label>
+            <select id="Gender" name="Gender">
+              <option value="Male">Male</option>
+              <option value="Female">Female</option>
+              <option value="Other">Other</option>
+            </select>
+          </div>
+
+
+          <div class="flex">
+            <div class="kolD">
+              <label class="birth">Date of Birth</label>
+              <div class="field-row1">
+                <div class="flex">
+                  <input type="text" class="mm" value="">
+                  <label class="dat">MM</label>
+                </div>
+                /
+                <div class="flex">
+                  <input type="text" class="mm" value="">
+                  <label class="dat1">DD</label>
+                </div>
+                /
+                <div class="flex">
+                  <input type="text" class="mm1" value="">
+                  <label class="dat2">YYYY</label>
+                </div>
+                <img src="kal.png" class="img" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+      </fieldset>
+
+
+      <fieldset>
+        <div class="field-row1">
+          <h3>Emergency Contact</h3>
+        </div>
+        <div class="field-row1">
+          <div class="flex">
+            <p>Name</p>
+            <input type="text" class="firstName" name="firstName" id="firstName1">
+            <label for="firstName1" class="first">First</label>
+          </div>
+
+          <div class="flex">
+            <input type="text" class="lastName1" name="lastName" id="lastName1">
+            <label for="lastName1">Last</label>
+          </div>
+
+          <div class="flex">
+            <div class="rel">
+              <p class="relT">Relationship</p>
+              <input type="text" class="input4" name="" value="">
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="field-row1">
+          <div class="flex">
+            <p class="adres">Address</p>
+            <input type="text" class="input3" name="" value="">
+            <label>Street Address</label>
+          </div>
+        </div>
+
+        <div class="field-row1">
+          <div class="flex">
+            <input type="text" class="input33" name="" value="">
+            <label>Address Line 2</label>
+          </div>
+        </div>
+
+
+        <div class="field-row1">
+          <div class="flex">
+            <input type="text" class="city" name="" value="">
+            <label>City</label>
+          </div>
+          <div class="flex">
+            <input class="state" type="text" name="" value="">
+            <label for="State" class="stateN">State / Province / Region</label>
+          </div>
+        </div>
+
+        <div class="field-row1">
+          <div class="flex">
+            <input class="zip" type="text" name="" value="">
+            <label>Postal / Zip Code</label>
+          </div>
+          <div class="flex">
+            <select name="Country" form="Country" class="country">
+              <option value="#"></option>
+              <option value="#"></option>
+              <option value="#"></option>
+            </select>
+            <label for="Country" class="countryN">Country</label>
+          </div>
+        </div>
+
+        <div class="field-row1">
+
+          <p class="home">Home Phone</p>
+
+          <p class="work">Work Phone</p>
+
+
+        </div>
+
+        <div class="field-row1">
+          <div class="phones">
+            <div class="flex">
+              <input type="text" class="hphone1" value="" id="phone1">
+              <label for="phone1" class="hwphoneT">###</label>
+            </div>
+            -
+            <div class="flex">
+              <input type="text" class="hphone" value="" id="phone2">
+              <label for="phone2" class="hwphoneT">###</label>
+            </div>
+            -
+            <div class="flex">
+              <input type="text" class="hphone3" value="" id="phone3">
+              <label for="phone3" class="hwphoneT">####</label>
+            </div>
+          </div>
+          <div class="phones1">
+
+            <div class="flex">
+
+              <input type="text" class="wphone1" value="" id="phone4">
+              <label for="phone4" class="hwphoneT">###</label>
+            </div>
+            -
+            <div class="flex">
+              <input type="text" class="wphone" value="" id="phone5">
+              <label for="phone5" class="hwphoneT">###</label>
+            </div>
+            -
+            <div class="flex">
+              <input type="text" class="wphone3" value="" id="phone6">
+              <label for="phone6" class="hwphoneT">####</label>
+            </div>
+          </div>
+
+        </div>
+
+      </fieldset>
+      <hr>
+      <fieldset>
+
+        <h3 class="inf">Medical Information</h3>
+        <div class="field-row1">
+          <div class="flex">
+            <label class="med">Hospital / Clinic Preference</label>
+            <input type="text" class="hospi" value="">
+          </div>
+        </div>
+
+        <div class="field-row1">
+          <div class="flex">
+            <label class="med1">Insurance Company</label>
+            <input type="text" class="compa" value="">
+          </div>
+          <div class="flex">
+            <label class="med2">Policy Number</label>
+            <input type="text" class="poli" value="">
+          </div>
+        </div>
+
+        <div class="field-row1">
+          <p class="phys">Physician's Name</p>
+          <p class="phoneN">Phone number</p>
+        </div>
+
+          <div class="field-row1">
+            <div class="phones2">
+              <div class="flex">
+                <input type="text" class="phys1" value="" id="phys">
+              </div>
+            </div>
+            <div class="phones3">
+              <div class="flex">
+                <input type="text" class="wphone1" value="" id="phone7">
+                <label for="phone7" class="hwphoneT">###</label>
+              </div>
+              -
+              <div class="flex">
+                <input type="text" class="wphone" value="" id="phone7">
+                <label for="phone7" class="hwphoneT">###</label>
+              </div>
+              -
+              <div class="flex">
+                <input type="text" class="wphone3" value="" id="phone7">
+                <label for="phone7" class="hwphoneT">####</label>
+              </div>
+            </div>
+
+          </div>
+
+          <label class="all">Allergies / Special Health Considerations</label>
+          <textarea rows="7" cols="90">
+          </textarea>
+          <br>
+
+          <button type="submit" name="button">Submit</button>
+
+        </fieldset>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
